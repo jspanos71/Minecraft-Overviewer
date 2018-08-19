@@ -396,8 +396,6 @@ class RegionSet(object):
             'minecraft:pink_tulip': (38, 7),
             'minecraft:oxeye_daisy': (38, 8),
             'minecraft:dandelion': (38, 9),
-            'minecraft:brown_mushroom_block': (99, 0),
-            'minecraft:red_mushroom_block': (100, 0),
             'minecraft:gold_block': (41, 0),
             'minecraft:iron_block': (42, 0),
             'minecraft:stone_slab': (44, 0),
@@ -469,7 +467,6 @@ class RegionSet(object):
             'minecraft:chiseled_stone_bricks': (98, 3),
             'minecraft:infested_chiseled_stone_bricks': (98, 3),
             'minecraft:brown_mushroom_block': (99, 0),
-            'minecraft:glass_pane': (20, 0), # wrong
             'minecraft:red_mushroom_block': (100, 0),
             'minecraft:iron_bars': (101, 0),
             'minecraft:glass_pane': (102, 0),
