@@ -703,9 +703,9 @@ class RegionSet(object):
                 'light_gray',   'cyan',  'purple',       'blue',
                      'brown',  'green',     'red',      'black']
         for i in range(len(colors)):
-            self._blockmap['minecraft:%s_concrete'           % colors[i]] = (251, i)
-			self._blockmap['minecraft:%s_concrete_powder'    % colors[i]] = (252, i)
-			self._blockmap['minecraft:%s_stained_glass'      % colors[i]] = (95, i)
+            self._blockmap['minecraft:%s_concrete' % colors[i]] = (251, i)
+			self._blockmap['minecraft:%s_concrete_powder' % colors[i]] = (252, i)
+			self._blockmap['minecraft:%s_stained_glass' % colors[i]] = (95, i)
 			self._blockmap['minecraft:%s_stained_glass_pane' % colors[i]] = (160, i)
 
     # Re-initialize upon unpickling
