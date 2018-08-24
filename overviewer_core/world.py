@@ -396,7 +396,7 @@ class RegionSet(object):
             'minecraft:pink_tulip': (38, 7),
             'minecraft:oxeye_daisy': (38, 8),
             'minecraft:dandelion': (38, 9),
-			'minecraft:brown_mushroom': (39, 0),	
+            'minecraft:brown_mushroom': (39, 0),	
             'minecraft:red_mushroom': (40, 0),
             'minecraft:gold_block': (41, 0),
             'minecraft:iron_block': (42, 0),
@@ -454,7 +454,7 @@ class RegionSet(object):
             'minecraft:nether_portal': (90, 0),
             'minecraft:jack_o_lantern': (91, 0),
             'minecraft:cake': (92, 0),
-			'minecraft:repeater': (93,0), # temporarily map to inactive repeater
+            'minecraft:repeater': (93,0), # temporarily map to inactive repeater
             'minecraft:oak_trapdoor': (96, 0),
             'minecraft:spruce_trapdoor': (96, 0), #wrong
             'minecraft:birch_trapdoor': (96, 0),
@@ -526,7 +526,7 @@ class RegionSet(object):
             'minecraft:quartz_stairs': (156, 0),
             'minecraft:activator_rail': (157, 0),
             'minecraft:dropper': (158, 0),
-			'minecraft:white_terracotta': (159, 0),
+            'minecraft:white_terracotta': (159, 0),
             'minecraft:orange_terracotta': (159, 1),
             'minecraft:magenta_terracotta': (159, 2),
             'minecraft:light_blue_terracotta': (159, 3),
@@ -546,7 +546,7 @@ class RegionSet(object):
             'minecraft:dark_oak_log': (162, 1),
             'minecraft:acacia_stairs': (163, 0),
             'minecraft:dark_oak_stairs': (164, 0),
-			'minecraft:slime_block': (165,0),
+            'minecraft:slime_block': (165,0),
             'minecraft:iron_trapdoor': (167, 0),
             'minecraft:prismarine': (168, 0),
             'minecraft:dark_prismarine': (168, 2),
@@ -706,7 +706,7 @@ class RegionSet(object):
             self._blockmap['minecraft:%s_concrete_powder'    % colors[i]] = (252, i)
             self._blockmap['minecraft:%s_stained_glass'      % colors[i]] = (95, i)
             self._blockmap['minecraft:%s_concrete'           % colors[i]] = (251, i)
-			
+            
 
     # Re-initialize upon unpickling
     def __getstate__(self):
