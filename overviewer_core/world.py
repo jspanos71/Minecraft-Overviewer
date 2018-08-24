@@ -396,6 +396,8 @@ class RegionSet(object):
             'minecraft:pink_tulip': (38, 7),
             'minecraft:oxeye_daisy': (38, 8),
             'minecraft:dandelion': (38, 9),
+			'minecraft:brown_mushroom': (39, 0),	
+            'minecraft:red_mushroom': (40, 0),
             'minecraft:gold_block': (41, 0),
             'minecraft:iron_block': (42, 0),
             'minecraft:stone_slab': (44, 0),
